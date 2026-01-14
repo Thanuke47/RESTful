@@ -47,11 +47,14 @@ class Booking(BaseModel):
     booking_status: str
 
 # Event Endpoints
+
+# Creates a Event to 
 @app.post("/events")
 async def create_event(event: Event):
     event_doc = event.dict()
     result = await db.events.insert_one(event_doc)
     return {"message": "Event created", "id": str(result.inserted_id)}
+
 
 @app.get("/events")
 async def get_events():
