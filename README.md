@@ -60,5 +60,5 @@ python main.py
 
 2. Open your browser and navigate to:
 ```
-http://localhost:5000
+http://127.0.0.1:8000
 ```
