@@ -1,5 +1,4 @@
 import os
-from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 from fastapi import FastAPI, File, UploadFile, HTTPException
 from fastapi.responses import StreamingResponse
