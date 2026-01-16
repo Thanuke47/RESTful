@@ -52,7 +52,7 @@ pip freeze > requirements.txt
 
 1. Start the Server:
 ```bash
-python main.py
+uvicorn main:app --reload
 ```
 
 2. Open your browser and navigate to:
