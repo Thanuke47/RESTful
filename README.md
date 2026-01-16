@@ -1,5 +1,3 @@
-# RESTful - Website Application
-
 The system will manage events, attendees, venues, ticket bookings, and multimedia assets, including event posters (images),
 promotional videos, and venue photos.
 
@@ -44,7 +42,6 @@ Requests - A simple, yet elegant HTTP library for Python, built for human beings
 ```bash
 pip install requests
 ```
-
 
 3. Create a requirement.txt
 ```bash
