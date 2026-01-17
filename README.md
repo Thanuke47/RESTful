@@ -43,6 +43,11 @@ Requests - A simple, yet elegant HTTP library for Python, built for human beings
 pip install requests
 ```
 
+
+```bash
+pip install python-multipart
+```
+
 3. Create a requirement.txt
 ```bash
 pip freeze > requirements.txt
